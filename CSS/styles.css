@@ -10,6 +10,36 @@
   color: #ffffff;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: #333; */
+  overflow: hidden;
+  width:50%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 4% 7%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+
 .css-selector {
     background: linear-gradient(15deg, #084177, #084177, #7a8493, #031023, #084177, #084177);
     background-size: 1200% 1200%;
@@ -122,7 +152,7 @@ h3
 {
   text-align: center;
   background-color:#fff;
-  padding:6% 25%;
+  padding:7% 25%;
 
 }
 #mission:hover
@@ -137,13 +167,37 @@ h3
   font-size: 2.7rem;
   padding-bottom: 20px;
 }
+
+.q
+{
+  padding-top: 3%;
+}
 .mis
 {
   font-family:'Open Sans';
   line-height:2.5;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
 }
+/* .misp
+{
+  text-align: left;
+  font-family:'Open Sans';
+  line-height:2.5;
+  font-size: 1.2rem;
+  font-weight: normal;
+} */
+.aa:hover
+{
+  color:#f3c623;
+}
+
+.col-lg-6
+{
+  size:50%;
+}
+
 #me
 {
   font-family:'Open Sans';
@@ -201,7 +255,7 @@ h3
 {
   text-align: center;
   background-color:#fff;
-  padding:6% 25%;
+  padding:6% 11%;
   background-color:#fff;
   line-height: 1.5;
 }
@@ -254,8 +308,32 @@ h3
 }
 .wwww
 {
+  text-align: center;
   font-family:'Montserrat',sans-serif;
- font-weight: bolder;
+ font-weight: normal;
+ font-size: 1rem;
+
+}
+.bigg
+{
+   /* padding:; */
+ size:100%;
+}
+
+.aaa
+{
+  padding-left: 30px;
+  /* text-align: center; */
+}
+
+.aaa:hover
+{
+  color:#f3c623;
+}
+
+.col-lg-3
+{
+  padding-left: 5%;
 }
 
 #carousel
