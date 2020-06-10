@@ -30,6 +30,7 @@ html
   padding: 4% 7%;
   text-decoration: none;
   font-size: 17px;
+  color:white;
 }
 
 /* Change the color of links on hover */
@@ -121,6 +122,7 @@ h1
   margin-left: 0;
   padding-left: 0;
   text-align: center;
+  padding-bottom: 45px;
 }
 h3
 {
@@ -157,7 +159,7 @@ h3
 {
   text-align: center;
   background-color:#fff;
-  padding:7% 25%;
+  padding:5% 25%;
 
 }
 #mission:hover
@@ -181,9 +183,9 @@ h3
 .mis
 {
   font-family:'Open Sans';
-  line-height:2.5;
+  line-height:1.5;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight:normal;
   text-align: center;
 }
 /* .misp
@@ -211,7 +213,7 @@ h3
   background-color:#fff;
   padding:6% 25%;
   background-color:#27496d;
-  line-height: 1.5;
+  /* line-height:2; */
 }
 .pic
 {
@@ -252,11 +254,21 @@ h3
 {
   font-family:'Open Sans';
   font-size: 1.2rem;
+  font-weight:normal;
+  text-align: left;
+  color:white;
+  line-height:1.9;
+}
+.missb
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
   font-weight:bold;
   text-align: left;
   color:white;
-    line-height:2.5;
+  line-height:1.9;
 }
+
 #homepage
 {
   text-align: center;
@@ -277,14 +289,14 @@ h3
   font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
-    line-height:2.5;
+    line-height:1.5;
 }
 .MSSi
 {
   font-family:'Life-Savers';
   font-weight: bold;
   font-size: 2.7rem;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   text-align: center;
 }
 
@@ -300,30 +312,31 @@ h3
 .MSSiay
 {
   font-family:'Life-Savers';
-  color:white;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.7rem;
   padding-bottom: 20px;
-  text-align:left;
-  padding-left:25%;
+  text-align: center;
+  color:white;
 }
 
 .bold
 {
-  font-weight: bold;
+  font-weight: normal;
 }
 .wwww
 {
   text-align: center;
   font-family:'Montserrat',sans-serif;
  font-weight: normal;
- font-size: 1rem;
+ font-size:0.8rem;
 
 }
 .bigg
 {
    /* padding:; */
  size:100%;
+ text-align: left;
+ padding-left: 0;
 }
 
 .aaa
@@ -359,6 +372,11 @@ h5
   font-size:2rem;
 }
 
+.carousel-caption d-none d-md-block:hover
+{
+  background-color: #0f0a3c;
+}
+
 .view
 {
   padding:2% 3%;
@@ -368,6 +386,7 @@ h5
 .carousel-caption d-none d-md-block
 {
   padding-top: 4%;
+  font-size:10px;
 }
 
 .cimg
@@ -474,14 +493,20 @@ h5
 
 #contact
 {
-  padding:0.5% 10%;
-  padding-top: 3%;
+  padding:0.5%;
+  /* padding-top: 3%; */
   background-color:#084177;
+  /* height:10%; */
+  /* margin:1000*200; */
+/* height: 100px; */
 }
 .k
 {
-  padding-top: 60px;
-  color: grey;
+  /* padding-top: 60px; */
+  color:#faf6e9;
+  text-align: center;
+  padding: 0;
+  font-weight: lighter;
 }
 .C
 {
@@ -495,14 +520,38 @@ h5
   font-weight: bold;
   font-size: 1.5rem;
   padding-bottom: 20px;
-  text-align: left;
+  text-align: center;
   color:white;
 }
 
-body:hover
+.missleft
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align:left;
+  color:white;
+  line-height:1.9;
+}
+
+.missright
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align:left;
+  color:white;
+  line-height:1.9;
+}
+
+.m
+{
+  padding: 0.5% 11%;
+}
+/* body:hover
 {
    background-color:#758184;
-}
+} */
 .thumbnail:hover {
     position:relative;
     top:-25px;
@@ -511,4 +560,9 @@ body:hover
     height:auto;
     display:block;
     z-index:999;
+}
+
+#Felicitation
+{
+  padding-bottom:35px;
 }
