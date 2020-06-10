@@ -1,3 +1,8 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
 #title
 {
   /* background-color:#084177; */
@@ -158,6 +163,7 @@ h3
 #mission:hover
 {
   background-color:#758184;
+  /* background-color: #cff1ef; */
   color:white;
 }
 .MS
@@ -190,7 +196,7 @@ h3
 } */
 .aa:hover
 {
-  color:#f3c623;
+  color:#fdb44b;
 }
 
 .col-lg-6
@@ -496,4 +502,13 @@ h5
 body:hover
 {
    background-color:#758184;
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
