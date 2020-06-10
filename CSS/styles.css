@@ -372,7 +372,7 @@ h5
   font-size:2rem;
 }
 
-.carousel-caption d-none d-md-block:hover
+.carousel-caption:hover
 {
   background-color: #0f0a3c;
 }
