@@ -566,3 +566,22 @@ h5
 {
   padding-bottom:35px;
 }
+.v
+{
+  width:10%;
+}
+
+.abc
+{
+  padding:1% 18%;
+}
+
+.MSSap
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: left;
+  color:white;
+}
