@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html
 {
   scroll-behavior: smooth;
@@ -585,3 +586,592 @@ h5
   text-align: left;
   color:white;
 }
+=======
+html
+{
+  scroll-behavior: smooth;
+}
+
+#title
+{
+  /* background-color:#084177; */
+  text-align: center;
+  font-family:'Arvo',serif;
+  font-weight: lighter;
+  /* padding: 7% 15%; */
+
+  line-height: 1;
+  color: #ffffff;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: #333; */
+  overflow: hidden;
+  width:50%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 4% 7%;
+  text-decoration: none;
+  font-size: 17px;
+  color:white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+
+.css-selector {
+    background: linear-gradient(15deg, #084177, #084177, #7a8493, #031023, #084177, #084177);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+
+.container-fluid
+{
+  padding-top: 7% 11%;
+  /* padding-bottom: 7%; */
+}
+
+.row
+{
+  padding:4% 10%;
+  padding-bottom: 6%;
+}
+.img
+{
+  text-align: right;
+  width:170px;
+  border-radius:10%;
+  position: relative;
+ left:25%;
+}
+
+.left
+{
+  text-align: left;
+  margin-left: 0;
+}
+.nav-item
+{
+  margin-left: 100px;
+  color:black;
+  padding-bottom:30px;
+}
+.n
+{
+  margin-left:100px;
+}
+
+#navbarSupportedContent
+{
+  padding-top: 3%;
+  padding-right: 2%;
+  font-family:'Montserrat-black',sans-serif;
+  color: black;
+}
+
+h1
+{
+  padding-top: 10px;
+  font-size: 5.2rem;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+  padding-bottom: 45px;
+}
+h3
+{
+  text-align:center;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  /* padding-left: 10%; */
+  padding-right: 5%;
+}
+
+@media(max-width:1295px)
+{ .img
+  {
+    position: static;
+  }
+  /* #title
+  {
+    text-align: center;
+    padding:4% 6%;
+  } */
+  .cimg
+  {
+    padding-right:200px;
+    /* position: relative;
+    left:10%; */
+  }
+  .cimgl
+  {
+    position: relative;
+    left:7%;
+  }
+}
+#mission
+{
+  text-align: center;
+  background-color:#fff;
+  padding:5% 25%;
+
+}
+#mission:hover
+{
+  background-color:#758184;
+  /* background-color: #cff1ef; */
+  color:white;
+}
+.MS
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-bottom: 20px;
+}
+
+.q
+{
+  padding-top: 4%;
+}
+.mis
+{
+  font-family:'Open Sans';
+  line-height:1.5;
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align: center;
+}
+/* .misp
+{
+  text-align: left;
+  font-family:'Open Sans';
+  line-height:2.5;
+  font-size: 1.2rem;
+  font-weight: normal;
+} */
+.aa:hover
+{
+  color:#fdb44b;
+}
+
+.col-lg-6
+{
+  size:50%;
+}
+
+#me
+{
+  font-family:'Open Sans';
+  text-align: center;
+  background-color:#fff;
+  padding:6% 25%;
+  background-color:#27496d;
+  /* line-height:2; */
+}
+.pic
+{
+  padding:5% 1%;
+  width:25%;
+  position:relative;
+  /* left: */
+}
+
+.pic:hover
+{
+  width:35%;
+
+}
+.ppp
+{
+  font-family:'Open Sans';
+  font-size: 1.5rem;
+  font-weight:bold;
+
+  color:white;
+    line-height:2.5;
+}
+#me:hover
+{
+    background-color:#084177;
+}
+.MSS
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-bottom: 20px;
+  text-align: center;
+  color:white;
+}
+.miss
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align: left;
+  color:white;
+  line-height:1.9;
+}
+.missb
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:bold;
+  text-align: left;
+  color:white;
+  line-height:1.9;
+}
+
+#homepage
+{
+  text-align: center;
+  background-color:#fff;
+  padding:6% 11%;
+  background-color:#fff;
+  line-height: 1.5;
+}
+
+#homepage:hover
+{
+  background-color:#758184;
+  color:white;
+}
+.H
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+    line-height:1.5;
+}
+.MSSi
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.MSSia
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.MSSiay
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-bottom: 20px;
+  text-align: center;
+  color:white;
+}
+
+.bold
+{
+  font-weight: normal;
+}
+.wwww
+{
+  text-align: center;
+  font-family:'Montserrat',sans-serif;
+ font-weight: normal;
+ font-size:0.8rem;
+
+}
+.bigg
+{
+   /* padding:; */
+ size:100%;
+ text-align: left;
+ padding-left: 0;
+}
+
+.aaa
+{
+  padding-left: 30px;
+  /* text-align: center; */
+}
+
+.aaa:hover
+{
+  color:#f3c623;
+}
+
+.col-lg-3
+{
+  padding-left: 5%;
+}
+
+#carousel
+{
+  background-color:#27496d ;
+  padding:2% 7%;
+}
+#carousel:hover
+{
+  background-color:#113f67;
+}
+h5
+{
+  text-align: center;
+  font-weight: bolder;
+  font-family:'Montserrat',sans-serif;
+  font-size:2rem;
+}
+
+.carousel-caption:hover
+{
+  background-color: #0f0a3c;
+}
+
+.view
+{
+  padding:2% 3%;
+  padding-bottom:4%;
+}
+
+.carousel-caption d-none d-md-block
+{
+  padding-top: 4%;
+  font-size:10px;
+}
+
+.cimg
+{
+  text-align: center;
+  width:600px;
+  position: relative;
+  left:26%;
+}
+ .cimg:hover
+ {
+   padding-right:390px;
+   width:1000px;
+   /* position: relative;
+   right:26%; */
+ }
+.cimgl
+{
+  text-align: center;
+  width:290px;
+  position: relative;
+  left:38%;
+}
+
+.cimgl:hover
+{
+   padding-right:390px;
+  width:660px;
+  /* position: relative;
+  right:38%; */
+}
+
+#cpro
+{
+  font-family:'Open Sans';
+  text-align: center;
+  background-color:#fff;
+  padding:6% 7%;
+  padding-bottom:3%;
+  background-color:#27496d;
+  line-height: 1.5;
+}
+#cpro:hover
+{
+    background-color:#084177;
+}
+.CP
+{
+  font-family:'Open Sans';
+  font-size: 1.5rem;
+  font-weight:bold;
+  text-align: center;
+  color:white;
+    line-height:2.5;
+}
+
+.cpm
+{
+  text-align: center;
+  font-size:1.5rem;
+  font-weight:normal;
+}
+
+#achievement
+{
+  font-family:'Open Sans';
+  text-align: center;
+  background-color:#fff;
+  padding:6% 25%;
+  background-color:#fff;
+  line-height:1.5;
+}
+
+#achievement:hover
+{
+  background-color:#758184;
+  color:white;
+}
+
+.ODC
+{
+  /* padding-bottom:%; */
+  width:50%;
+  position:relative;
+  left:24%;
+  /* border-radius:5% */
+}
+.ODC:hover
+{
+  /* border-radius:5%; */
+  width:60%
+}
+
+.ACH
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  line-height:2.5;
+}
+
+
+
+#contact
+{
+  padding:0.5%;
+  /* padding-top: 3%; */
+  background-color:#084177;
+  /* height:10%; */
+  /* margin:1000*200; */
+/* height: 100px; */
+}
+.k
+{
+  /* padding-top: 60px; */
+  color:#faf6e9;
+  text-align: center;
+  padding: 0;
+  font-weight: lighter;
+}
+.C
+{
+
+  text-align: center;
+  color:white;
+}
+.MSSa
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: center;
+  color:white;
+}
+
+.missleft
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align:left;
+  color:white;
+  line-height:1.9;
+}
+
+.missright
+{
+  font-family:'Open Sans';
+  font-size: 1.2rem;
+  font-weight:normal;
+  text-align:left;
+  color:white;
+  line-height:1.9;
+}
+
+.m
+{
+  padding: 0.5% 11%;
+}
+/* body:hover
+{
+   background-color:#758184;
+} */
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#Felicitation
+{
+  padding-bottom:35px;
+}
+.v
+{
+  width:10%;
+}
+
+.abc
+{
+  padding:1% 18%;
+}
+
+.MSSap
+{
+  font-family:'Life-Savers';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: left;
+  color:white;
+}
+>>>>>>> 69592882fd49d5fff7c642845d3d9ebf9405e0e1
